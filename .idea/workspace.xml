@@ -9,37 +9,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="178cf38e-6319-4ae6-8e2e-321542edb9fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/Batiment/AdministrationBatiment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/Batiment/AmphiBatiment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/Batiment/Batiment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/Batiment/BatimentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/Batiment/SalleCourBatiment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/Batiment/SalleTPBatiment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/Batiment/SportBatiment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/SingletonConnector/SingletonConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/dash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/filter/AuthentificationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/interfaces/IBatiment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/session/login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/session/logout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/batiment.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/ucd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="178cf38e-6319-4ae6-8e2e-321542edb9fd" name="Changes" comment="batiment">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/dao/batimentDB/IBatimentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uni/dream/Batiment/AdministrationBatiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/batiment/AdministrationBatiment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uni/dream/Batiment/AmphiBatiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/batiment/AmphiBatiment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uni/dream/Batiment/Batiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/batiment/Batiment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uni/dream/Batiment/BatimentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/batiment/BatimentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uni/dream/Batiment/SalleCourBatiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/batiment/SalleCourBatiment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uni/dream/Batiment/SalleTPBatiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/batiment/SalleTPBatiment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uni/dream/Batiment/SportBatiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/batiment/SportBatiment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uni/dream/DAO/batimentDB/BatimentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/dao/batimentDB/BatimentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uni/dream/SingletonConnector/SingletonConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/singletonConnector/SingletonConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uni/dream/controllers/BatimentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/controllers/BatimentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uni/dream/dash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/Dash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uni/dream/interfaces/IBatiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/interfaces/IBatiment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uni/dream/session/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/session/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/uni/dream/session/logout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/uni/dream/session/Logout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/batiment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/batimentsList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/page.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/page.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,25 +69,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Lenovo/Desktop/master/design patterns/projet/dream/src/main/webapp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo/Desktop/master/design patterns/projet/hope&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\Desktop\master\design patterns\projet\dream\src\main\webapp" />
@@ -109,6 +103,9 @@
       <recent name="C:\Users\Lenovo\Desktop\master\design patterns\projet\dream\src\main\webapp\admin" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.uni.dream.DAO.batimentDB" />
+      <recent name="com.uni.dream.interfaces" />
+      <recent name="com.uni.dream.DAO.batimentDAO" />
       <recent name="com.uni.dream" />
     </key>
   </component>
@@ -165,8 +162,27 @@
       <updated>1705057722858</updated>
       <workItem from="1705057723891" duration="9003000" />
       <workItem from="1706301109954" duration="3683000" />
-      <workItem from="1706307763773" duration="7661000" />
+      <workItem from="1706307763773" duration="13777000" />
+      <workItem from="1707096456073" duration="1277000" />
+      <workItem from="1709154371636" duration="17591000" />
+      <workItem from="1709240776473" duration="599000" />
+      <workItem from="1709372251196" duration="4446000" />
     </task>
+    <task id="LOCAL-00001" summary="authentification">
+      <created>1706539189215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706539189215</updated>
+    </task>
+    <task id="LOCAL-00002" summary="batiment">
+      <created>1706539205220</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706539205220</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,5 +190,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="authentification" />
+    <MESSAGE value="batiment" />
+    <option name="LAST_COMMIT_MESSAGE" value="batiment" />
   </component>
 </project>

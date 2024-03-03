@@ -29,6 +29,10 @@
 <h3>Dashboard</h3>
 <h4><%=message%></h4>
 <h4>Session ID = <%=sessionID %></h4>
+<br>
+<form action="batiments" method="post">
+  <input type="submit" value="batiments" >
+</form>
 <br><br>
 <form action="logout" method="post">
   <input type="submit" value="Deconnecter" >
