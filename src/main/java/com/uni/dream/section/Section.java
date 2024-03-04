@@ -17,6 +17,10 @@ public class Section {
         this.etudiants = etudiants;
     }
 
+    public Section() {
+
+    }
+
     // Getters et Setters
     public int getNombreEtudiants() {
         return nombreEtudiants;
